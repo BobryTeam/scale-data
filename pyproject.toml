@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "scale-data"
+version = "2024.26.05"
+description = ""
+authors = ["John Smith <john@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "scale-data.py" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
