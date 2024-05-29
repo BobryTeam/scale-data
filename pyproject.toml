@@ -9,7 +9,7 @@ description = ""
 authors = ["John Smith <john@example.com>"]
 readme = "README.md"
 packages = [
-    { include = "scale-data.py" },
+    { include = "scale_data.py" },
 ]
 
 [tool.poetry.dependencies]
